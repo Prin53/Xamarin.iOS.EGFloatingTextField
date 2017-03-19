@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+    <metadata>
+        <id>Prin53.Xamarin.iOS.EGFloatingTextField</id>
+        <version>1.0.0</version>
+        <authors>Denys Fiediaiev</authors>
+        <owners>Denys Fiediaiev</owners>
+        <licenseUrl>https://github.com/Prin53/Xamarin.iOS.EGFloatingTextField/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/Prin53/Xamarin.iOS.EGFloatingTextField</projectUrl>
+        <iconUrl>http://imgur.com/jDiKURX</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>EGFloatingTextField Xamarin</description>
+        <releaseNotes>First version.</releaseNotes>
+        <copyright>Denys Fiediaiev 2017</copyright>
+        <tags>Xamarin iOS EGFloatingTextField</tags>
+    </metadata>
+    <files>
+        <file src="EGFloatingTextField\bin\Release\EGFloatingTextField.dll" target="lib\Xamarin.iOS" />
+    </files>
+</package>

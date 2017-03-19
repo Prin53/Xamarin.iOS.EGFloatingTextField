@@ -1,0 +1,36 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EGFloatingTextField.Sample", "EGFloatingTextField.Sample\EGFloatingTextField.Sample.csproj", "{52D9F20B-160B-42FF-A472-58DC841FF74F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EGFloatingTextField", "EGFloatingTextField\EGFloatingTextField.csproj", "{2118F46D-659A-448C-A215-793B8AF978F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52D9F20B-160B-42FF-A472-58DC841FF74F}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{52D9F20B-160B-42FF-A472-58DC841FF74F}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{52D9F20B-160B-42FF-A472-58DC841FF74F}.Release|iPhone.ActiveCfg = Release|iPhone
+		{52D9F20B-160B-42FF-A472-58DC841FF74F}.Release|iPhone.Build.0 = Release|iPhone
+		{52D9F20B-160B-42FF-A472-58DC841FF74F}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{52D9F20B-160B-42FF-A472-58DC841FF74F}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{52D9F20B-160B-42FF-A472-58DC841FF74F}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{52D9F20B-160B-42FF-A472-58DC841FF74F}.Debug|iPhone.Build.0 = Debug|iPhone
+		{2118F46D-659A-448C-A215-793B8AF978F6}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{2118F46D-659A-448C-A215-793B8AF978F6}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{2118F46D-659A-448C-A215-793B8AF978F6}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{2118F46D-659A-448C-A215-793B8AF978F6}.Release|iPhone.Build.0 = Release|Any CPU
+		{2118F46D-659A-448C-A215-793B8AF978F6}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{2118F46D-659A-448C-A215-793B8AF978F6}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{2118F46D-659A-448C-A215-793B8AF978F6}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{2118F46D-659A-448C-A215-793B8AF978F6}.Debug|iPhone.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		version = 1.0
+	EndGlobalSection
+EndGlobal
