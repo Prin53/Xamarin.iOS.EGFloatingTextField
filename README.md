@@ -4,26 +4,26 @@
 ```cs
 var textField = new FloatingTextField
 {
-	TranslatesAutoresizingMaskIntoConstraints = false,
-	Placeholder = "Placeholder"
+    TranslatesAutoresizingMaskIntoConstraints = false,
+    Placeholder = "Placeholder"
 };
 
 View.AddSubview(textField);
 
 View.AddConstraints(new NSLayoutConstraint[]
 {
-	textField.TopAnchor.ConstraintEqualTo(View.TopAnchor, 128),
+    textField.TopAnchor.ConstraintEqualTo(View.TopAnchor, 128),
     textField.LeadingAnchor.ConstraintEqualTo(View.LeadingAnchor, 16),
-	textField.TrailingAnchor.ConstraintEqualTo(View.TrailingAnchor, -16),
-	textField.HeightAnchor.ConstraintEqualTo(48)
+    textField.TrailingAnchor.ConstraintEqualTo(View.TrailingAnchor, -16),
+    textField.HeightAnchor.ConstraintEqualTo(48)
 });
 ```
 ## Custom Usage Example
 ```cs
 var textField = new FloatingTextField
 {
-	Placeholder = "Placeholder",
-	Font = Fonts.AppFont,
+    Placeholder = "Placeholder",
+    Font = Fonts.AppFont,
     TextColor = Palette.AppColor,
     LineColor = Palette.LineColor,
     LineHeight = 1,
